@@ -19,15 +19,16 @@ const Hero = () => {
           {/* left div */}
           <div className="flex-1">
             <h1 className="text-4xl sm:text-5xl font-bold mt-4 lg:leading-[60px]">
-            Navigating the digital landscape for success
+              Navigating the digital landscape for success
             </h1>
             
             <p className="mt-6 text-lg max-w-xl leading-[30px]">
-            Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
-
+              Our digital marketing agency helps businesses grow and succeed
+              online through a range of services including SEO, PPC, social
+              media marketing, and content creation.
             </p>
             <div className="mt-5">
-              <Button text={"Book a Consultation"} />
+              <Button text={"Book a consultation"} />
             </div>
           </div>
 
@@ -37,39 +38,26 @@ const Hero = () => {
           </div>
         </div>
 
-          <div className="flex justify-between py-5 items-center">
-          {/* logo */}
+        {/* logos section */}
+        <div className="flex justify-between items-center py-5 mt-10">
           <Link href="/" className="hover:text-[#B9FF66] duration-300">
-            <div>
-              <Image src={amazon} alt="amazon" />
-            </div>
+            <Image src={amazon} alt="Amazon" width={100} height={40} />
           </Link>
           <Link href="/" className="hover:text-[#B9FF66] duration-300">
-            <div>
-              <Image src={dribble} alt="dribbble" />
-            </div>
+            <Image src={dribble} alt="Dribbble" width={100} height={40} />
           </Link>
           <Link href="/" className="hover:text-[#B9FF66] duration-300">
-            <div>
-              <Image src={hubspot} alt="hubspot" />
-            </div>
+            <Image src={hubspot} alt="HubSpot" width={100} height={40} />
           </Link>
           <Link href="/" className="hover:text-[#B9FF66] duration-300">
-            <div>
-              <Image src={notion} alt="notion" />
-            </div>
+            <Image src={notion} alt="Notion" width={100} height={40} />
           </Link>
           <Link href="/" className="hover:text-[#B9FF66] duration-300">
-            <div>
-              <Image src={netflix} alt="netflix" />
-            </div>
+            <Image src={netflix} alt="Netflix" width={100} height={40} />
           </Link>
           <Link href="/" className="hover:text-[#B9FF66] duration-300">
-            <div>
-              <Image src={zoom} alt="zoom" />
-            </div>
+            <Image src={zoom} alt="Zoom" width={100} height={40} />
           </Link>
-         
         </div>
       </Wrapper>
     </section>

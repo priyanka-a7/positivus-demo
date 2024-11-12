@@ -43,7 +43,10 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/request-quote" className="hover:text-[#B9FF66] duration-300">
+              <Link
+                href="/request-quote"
+                className="hover:text-[#B9FF66] duration-300 border border-black px-4 py-2 rounded"
+              >
                 Request a quote
               </Link>
             </li>
